@@ -1,6 +1,7 @@
 # Matrix 433Mhz Mqtt client
 
 Mqtt client which allows to switch 433Mhz devices using RC-Switch.
+Based on the following example: https://mosquitto.org/man/libmosquitto-3.html
 
 ## Usage
 
