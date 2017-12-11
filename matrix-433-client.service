@@ -1,0 +1,11 @@
+[Unit]
+Description=Matrix Creater 433mhz switch sender
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/matrix-433-mqtt-client/build/matrix-433-mqtt-client
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
